@@ -12,11 +12,20 @@ body {
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 38px;
+  padding-top: 38px;
+  padding-bottom: 0px;
+  padding-left: 38px;
+  margin-bottom: 0;
 }
 
 .left-column {
   display: flex;
+  max-height: fit-content;
+}
+
+.right-column {
+  display: flex;
+  max-height: fit-content;
 }
 
 .nav-wrapper > .left-column > div {
@@ -42,6 +51,20 @@ body {
 }
 .nav-link-wrapper a:hover {
   color: black;
+}
+
+.nav-wrapper > .right-column > div {
+  margin-left: 30px;
+}
+
+.profile-img,
+.brand .a {
+  position: relative;
+  top: -30px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 /* Portfolio Items */
@@ -78,11 +101,11 @@ body {
   padding-right: 100px;
 }
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 150px;
 }
 
 .logo-wrapper img {
   height: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
