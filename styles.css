@@ -50,7 +50,7 @@ body {
   border-bottom: 1px solid black;
 }
 .nav-link-wrapper a:hover {
-  color: black;
+  color: black;50%
 }
 
 .nav-wrapper > .right-column > div {
@@ -60,10 +60,10 @@ body {
 .profile-img,
 .brand .a {
   position: relative;
-  top: -30px;
+  top: -25px;
   right: 10px;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
@@ -106,6 +106,10 @@ body {
 }
 
 .logo-wrapper img {
-  height: 50%;
-  margin-bottom: 30px;
+  height: 70%;
+  margin-bottom: 20px;
+}
+
+.portfolio-item-wrapper:hover {
+opacity: 50%;
 }
