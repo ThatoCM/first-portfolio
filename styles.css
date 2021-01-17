@@ -50,7 +50,7 @@ body {
   border-bottom: 1px solid black;
 }
 .nav-link-wrapper a:hover {
-  color: black;50%
+  color: black;
 }
 
 .nav-wrapper > .right-column > div {
@@ -76,6 +76,9 @@ body {
 
 .portfolio-item-wrapper {
   position: relative;
+  padding: 1px;
+  font-weight: 600;
+  color: transparent;
 }
 
 .portfolio-img-background {
@@ -84,10 +87,10 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 1%;
 }
 
 .img-text-wrapper {
-  color: white;
   position: absolute;
   top: 0;
   display: flex;
@@ -111,5 +114,8 @@ body {
 }
 
 .portfolio-item-wrapper:hover {
-opacity: 70%;
+  transition: 0.5s;
+  filter: brightness(80%);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
